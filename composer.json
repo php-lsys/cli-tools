@@ -1,0 +1,14 @@
+{
+	"name": "lsys/cli-tools",
+	"type" : "library",
+	"license": "Apache-2.0",
+	"description" : "lsys module cli-tools",
+	"autoload":{
+		"psr-4": {
+        	"LSYS\\" : "src/classes/LSYS/"
+		}
+    },
+    "require": {
+     	"php": ">=7.1"
+	}
+}
